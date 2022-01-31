@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&family=Ubuntu:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #ffffff;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1em 4em;
+}
+
+.icon_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.icon_header i {
+  padding-right: 1em;
+}
+
+.icon_header a {
+  color: #161616;
+
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav_links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.links i {
+  font-size: 18px;
+  padding-left: 2em;
+  color: #B1DF8E;
+}
+/* header end */
+
+.banner img {
+  TODO: corrigir banner
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 1em 4em;
+}
+
+.todos_produtos > div {
+  flex: 1 1 200px;
+}
+
+.todos_produtos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.todos_produtos img {
+  max-width: 100%;
+  display: block;
+}
+
+.row1 {
+  cursor: pointer;
+  margin: 2vw 4vw;
+}
+
+.row1 p {
+  padding-top: 5px;
+}
+/* main end */
+
+.links_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5em 3em 2em;
+}
+
+.links_footer li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links_footer a {
+  color: #161616;
+
+  text-decoration: none;
+}
+
+#button_footer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: .7em 2em;
+  background: #5CA720;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.redes_e_cartoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 3em;
+}
+
+.fab {
+  padding: 0 5px;
+  color: #5CA720;
+  font-size: 30px;
+}
+/* footer end */

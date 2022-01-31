@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&family=Ubuntu:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #ffffff;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a {
+  color: #161616;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 4em;
+}
+
+.icon_header a {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+#button_header {
+  border: 2px solid transparent;
+  padding: .5em 3em;
+  font-weight: bold;
+  color: #ffffff;
+  background: #0A63E0;
+  border-radius: 50px;
+}
+
+#button_header:hover {
+  cursor: pointer;
+}
+
+/* header end */
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5em 0em;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.login h1 {
+  font-size: 28px;
+  padding: 1em 0;
+  font-weight: bold;
+  color: #161616ec;
+}
+
+.login p {
+  font-size: 16px;
+  color: #5A6175;
+}
+
+.login p a:hover {
+  text-decoration: underline;
+}
+
+.login p a {
+  color: #5CA720;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+.login input {
+  margin: .9em 0;
+  padding: 1.2em 12em;
+  border: 1px solid #5b5b5c31;
+  border-radius: 5px;
+  color: #161616;
+  font-weight: 500;
+}
+
+.login form a {
+  font-size: 16px;
+  color: #5CA720;
+  display: flex;
+  align-items: flex-start;
+}
+
+.login form a:hover {
+  text-decoration: underline ;
+}
+
+#button {
+  font-weight: bold;
+  color: #ffffff;
+  background: #0A63E0;
+  border-radius: 50px;
+  padding: 1em 16em;
+}
+
+#button {
+  cursor: pointer;
+}
+
+.redes_sociais a {
+  padding: .5em;
+}
+
+.redes_sociais i {
+  color: #ffffff;
+  border-radius: 2px solid transparent !important;
+  border-radius: 30px;
+  padding: .7em 3.5em ;
+  background-color: #333333;
+}
+
+
+/* main end */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.redes_sociais_footer {
+  padding: 1em;
+}
+
+.redes_sociais_footer a {
+  color: #6F7481;
+  font-size: 22px;
+  padding: .5em;
+}
+
+.termos a {
+  color: #6F7481;
+  padding: 0em .7em;
+}
+

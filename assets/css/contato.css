@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&family=Ubuntu:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #ffffff;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li, a {
+  color: #161616;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 4em;
+}
+
+.icon_header {
+  cursor: pointer;
+}
+
+.icon_header a {
+  font-size: 22px;
+  padding: .7em .3em;
+  font-weight: bold;
+}
+
+.nav_bar {
+  display: flex;
+}
+
+.nav_bar ul {
+  display: flex;
+}
+
+.nav_bar li {
+  padding: .7em;
+}
+
+#button_header {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: .7em 2em;
+  background: #5CA720;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* header end */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 4em 4em;
+}
+
+.mensagem h1 {
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+
+.contate-nos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 4em 0em;
+}
+
+.contato {
+  padding: 0 4em;
+}
+
+.contato i {
+  color: #5CA720;
+  font-size: 80px;
+}
+
+.contato p {
+  padding: .7em 0;
+  cursor: pointer;
+}
+
+.links_contato {
+  text-decoration: underline #161616;
+  font-weight: bold;
+}
+
+/* main end */
+
+.nav_footer {
+  margin: 5em 4em 1em;
+}
+
+.links_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links_footer li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.links_footer a {
+  color: #161616;
+
+  text-decoration: none;
+}
+
+#button_footer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: .7em 2em;
+  background: #5CA720;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.redes_e_cartoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.fab {
+  padding: 0 5px;
+  color: #5CA720;
+  font-size: 30px;
+}
+/* footer end */
+
