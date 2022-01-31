@@ -118,10 +118,10 @@ body {
 #button_footer {
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color: #161616;
   padding: .7em 2em;
-  background: #5CA720;
-  border: none;
+  background: #ffffff;
+  border: 2px solid #5CA720;
   border-radius: 5px;
   cursor: pointer;
 }
